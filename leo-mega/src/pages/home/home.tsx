@@ -226,7 +226,7 @@ function App() {
           <a href="https://wa.me/5511937788516" target="_blank">
             <FaWhatsapp /> WhatsApp
           </a>
-          <a href="https://www.instagram.com/leo_.mega" target="_blank">
+          <a href="https://www.instagram.com/personal_leo_mega" target="_blank">
             <FaInstagram /> Instagram
           </a>
         </div>
