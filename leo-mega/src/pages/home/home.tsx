@@ -1,22 +1,20 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useMemo } from 'react'
-import LightLogo from '../../assets/28 - Logomarca Principal - Fundo Transparente - Colorido 2.png'
-import DarkLogo from '../../assets/27 - Logomarca Principal - Fundo Transparente - Colorido 1.png'
 import LeoPhoto from '../../assets/LeoPhoto.jpg'
-import FotoLeo from '../../assets/FotoLeo.jpg'
 import AntesLeo from '../../assets/AntesLeo.jpg'
 import JosiAntes from '../../assets/JosiAntes.jpg'
 import JosiDepois from '../../assets/JosiDepois.jpg'
-import { FaWhatsapp, FaInstagram, FaEnvelope, FaArrowRight, FaArrowLeft, FaPlay } from 'react-icons/fa'
+import LucasDepois from '../../assets/LucasDepois.jpg'
+import LucasAntes from '../../assets/LucasAntes.jpg'
+import { FaWhatsapp, FaInstagram, FaArrowRight } from 'react-icons/fa'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+import { Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import Header from '../../components/Header'
 
 function App() {
-  // Anos de atuação calculados a partir de 2021 (formado em 2021)
   const anosAtuacao = useMemo(() => {
     const start = 2021
     const now = new Date().getFullYear()
@@ -104,7 +102,7 @@ function App() {
           {[
             { nome: 'Leonardo Mega', imgDepois: LeoPhoto, imgAntes: AntesLeo },
             { nome: 'Josilene Almeida', imgDepois: JosiDepois, imgAntes: JosiAntes },
-            { nome: 'Aluno 3', imgDepois: '', imgAntes: '' }
+            { nome: 'Lucas Trindade', imgDepois: LucasDepois, imgAntes: LucasAntes }
           ].map((a, i) => (
             
             <SwiperSlide key={i}>
