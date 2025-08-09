@@ -73,6 +73,7 @@ body{
   background:var(--background);
   color:var(--text);
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  overflow-x: hidden;
 }
 section {
   scroll-margin-top: 88px;
@@ -318,11 +319,13 @@ section{ padding:4rem 2rem; text-align:center }
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 12px 24px rgba(0,0,0,.25);
     border-left: 1px solid rgba(255,255,255,.06);
-	border-top: 1px solid #ffffff50;
+	  border-top: 1px solid #ffffff50;
+    display: none !important;
   }
 
   .nav.open {
     transform: translateX(0);
+    display: flex !important;
   }
 
   /* botões do menu lateral */
