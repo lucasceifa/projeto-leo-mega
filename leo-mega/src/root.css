@@ -1,0 +1,9 @@
+:root {
+  --background-container: #2d2d2d;
+  --background: #0e0e0e;
+  --text: #FFFFFF;
+  --red: rgb(137, 1, 1);
+  --red-opaque: #ba030367;
+  --green: #1a7403;
+  --box-shadow: 4px 4px 8px 0 #00000035
+}
