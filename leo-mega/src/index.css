@@ -139,7 +139,7 @@ button{ border:none; padding:.625rem .75rem; border-radius:.55rem; display:inlin
 .evo-header .dot{ width:8px; height:8px; background:var(--green); border-radius:999px; box-shadow:0 0 0 4px var(--green-opaque) }
 .evo-photos{ display:grid; grid-template-columns: 1fr 1fr; gap:.75rem }
 .evo-photos figure{ display:flex; flex-direction:column; gap:.35rem }
-.evo-photos img{ width:100%; aspect-ratio: 3 / 4; object-fit:cover; border-radius:12px; border:1px solid rgba(255,255,255,.08) }
+.evo-photos img{ width:100%; aspect-ratio: 3 / 4; object-fit:cover; border-radius:12px; object-position: top; border:1px solid rgba(255,255,255,.08) }
 .evo-photos figcaption{ text-align:center; font-size:14px; color:var(--muted) }
 
 /* ===== Info (parallax-ready) ===== */

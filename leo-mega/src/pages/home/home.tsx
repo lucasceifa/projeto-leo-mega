@@ -6,6 +6,8 @@ import JosiAntes from '../../assets/JosiAntes.jpg'
 import JosiDepois from '../../assets/JosiDepois.jpg'
 import LucasDepois from '../../assets/LucasDepois.jpg'
 import LucasAntes from '../../assets/LucasAntes.jpg'
+import RaphaAntes from '../../assets/RaphaAntes.png'
+import RaphaAgora from '../../assets/RaphaAgora.png'
 import { FaWhatsapp, FaInstagram, FaArrowRight } from 'react-icons/fa'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Autoplay } from 'swiper/modules'
@@ -100,9 +102,10 @@ function App() {
           }}
         >
           {[
-            { nome: 'Leonardo Mega', imgDepois: LeoPhoto, imgAntes: AntesLeo },
+            { nome: 'Raphael', imgDepois: RaphaAgora, imgAntes: RaphaAntes },
             { nome: 'Josilene Almeida', imgDepois: JosiDepois, imgAntes: JosiAntes },
-            { nome: 'Lucas Trindade', imgDepois: LucasDepois, imgAntes: LucasAntes }
+            { nome: 'Lucas Trindade', imgDepois: LucasDepois, imgAntes: LucasAntes },
+            { nome: 'Leonardo Mega', imgDepois: LeoPhoto, imgAntes: AntesLeo }
           ].map((a, i) => (
             
             <SwiperSlide key={i}>
