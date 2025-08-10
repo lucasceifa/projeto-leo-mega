@@ -102,7 +102,7 @@ function App() {
           }}
         >
           {[
-            { nome: 'Raphael', imgDepois: RaphaAgora, imgAntes: RaphaAntes },
+            { nome: 'Raphael Guedes', imgDepois: RaphaAgora, imgAntes: RaphaAntes },
             { nome: 'Josilene Almeida', imgDepois: JosiDepois, imgAntes: JosiAntes },
             { nome: 'Lucas Trindade', imgDepois: LucasDepois, imgAntes: LucasAntes },
             { nome: 'Leonardo Mega', imgDepois: LeoPhoto, imgAntes: AntesLeo }
