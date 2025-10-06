@@ -38,6 +38,8 @@ table { border-collapse:collapse; border-spacing:0 }
   --radius:16px;
   --radius-sm:10px;
   --maxw:1180px;
+  --blue: #007bff;
+  --blue-opaque: rgba(0, 123, 255, 0.4);
 }
 /* tamanho, borda e espaçamento */
 .swiper-pagination-bullet {
@@ -98,6 +100,14 @@ button{ border:none; padding:.625rem .75rem; border-radius:.55rem; display:inlin
 .button-wpp{ background:var(--green); color:#0a0d12; font-weight:700; box-shadow:0 6px 12px var(--green-opaque) }
 .button-wpp:hover{ filter:brightness(1.04) }
 .button-wpp.big{ font-size:16px; padding:.9rem 1.35rem; color: var(--text); }
+
+/* Botão da consultoria */
+.button-consultoria { background: var(--blue); color: #fff; font-weight: 700; box-shadow: 0 6px 12px var(--blue-opaque); }
+.button-consultoria:hover { filter: brightness(1.08); }
+.button-consultoria.big { font-size: 16px; padding: 0.9rem 1.35rem; }
+
+/* Legenda abaixo */
+.legenda-aviso { color: #e63946; font-size: 18px; font-weight: 600; margin: 1rem 0 1.5rem 0; text-align: center; }
 
 .ghost{ display:inline-flex; gap:.5rem; align-items:center; font-weight:700; opacity:.9; text-decoration:none; border-bottom:2px solid transparent; padding-bottom:2px }
 .ghost:hover{ border-color:var(--primary) }

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useMemo } from 'react'
 import LeoPhoto from '../../assets/LeoPhoto.jpg'
 import AntesLeo from '../../assets/AntesLeo.jpg'
@@ -8,7 +7,7 @@ import LucasDepois from '../../assets/LucasDepois.jpg'
 import LucasAntes from '../../assets/LucasAntes.jpg'
 import RaphaAntes from '../../assets/RaphaAntes.png'
 import RaphaAgora from '../../assets/RaphaAgora.png'
-import { FaWhatsapp, FaInstagram, FaArrowRight } from 'react-icons/fa'
+import { FaWhatsapp, FaInstagram, FaArrowRight, FaUserTie } from 'react-icons/fa'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css'
@@ -34,6 +33,16 @@ function App() {
             <h1>
               Comece sua consultoria online hoje e dê o primeiro passo rumo à sua melhor versão
             </h1>
+
+            <button
+              className="button-consultoria big"
+              onClick={() => {
+                window.location.href = 'https://pages.mfitpersonal.com.br/index?acao=page&tipo=1&page=107568&isCheckout=false'
+              }}
+            >
+              <FaUserTie /> Comece agora sua consultoria personalizada!
+            </button>
+            <p className="legenda-aviso">Vagas limitadas! Garanta já a sua!</p>
 
             <div className="pitch">
               <h3>🎯 Buscando Equilíbrio entre Treino, Trabalho e Lazer?</h3>
@@ -229,7 +238,7 @@ function App() {
           <a href="https://wa.me/5511937788516" target="_blank">
             <FaWhatsapp /> WhatsApp
           </a>
-          <a href="https://www.instagram.com/personal_leo_mega" target="_blank">
+          <a href="https://www.instagram.com/leomegapersonal" target="_blank">
             <FaInstagram /> Instagram
           </a>
         </div>
