@@ -70,7 +70,7 @@ function App() {
                 <button
                   className="button-wpp big"
                   onClick={() => {
-                    window.location.href = 'https://wa.me/5511937788516'
+                    window.location.href = 'https://wa.me/5511976576601'
                   }}
                 >
                   <FaWhatsapp /> Falar no WhatsApp
